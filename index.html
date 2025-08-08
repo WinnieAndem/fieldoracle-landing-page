@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fieldoracle - Agency Landing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'inter': ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-100 min-h-screen font-inter">
+  <section class="bg-[url('background-image.svg')] bg-cover bg-no-repeat max-w-[585px] h-[960px] sm:max-w-[2000px] sm:h-screen relative mx-auto">
+    <nav
+      class="absolute top-8 left-1/2 -translate-x-1/2 w-full max-w-md sm:max-w-3xl md:max-w-4xl mx-auto z-10 mt-4 md:mt-8  bg-white shadow-lg rounded-lg border-b border-gray-200 lg:px-4">
+      <div class="container mx-auto px-6 sm:px-6 md:px-7 lg:px-8">
+        <div class="flex items-center justify-between h-14 sm:h-16 lg:h-18">
+          <div class="flex-shrink-0">
+            <div class="flex items-center">
+              <div class="flex items-center justify-center">
+                <img src="Logo.svg" alt="Fieldoracle Logo Image" class="h-5 md:h-auto" />
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden md:flex items-center space-x-6 lg:space-x-8">
+            <a href="#" class="text-gray-700 px-2 py-2 text-sm lg:text-base font-medium">
+              Home
+            </a>
+            <div class="hidden md:flex items-center space-x-3 lg:space-x-4">
+              <a href="#" class="text-gray-700 px-2 py-2 text-sm lg:text-base font-medium">
+                Login
+              </a>
+              <a href="#" class="bg-[#3CA371] text-white px-2 lg:px-[8px] py-2 lg:py-[8px] text-sm lg:text-base font-medium rounded-lg">
+                Sign Up
+              </a>
+            </div>
+          </div>
+
+          <div class="md:hidden">
+            <button class="text-white bg-[#3CA371] px-4 py-2 text-sm font-medium rounded-lg">
+              Log In
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+    <div class="absolute top-[250px] left-4 md:top-[8rem] md:left-[70px] lg:top-[8rem] lg:left-[380px] flex flex-col gap-2 md:gap-3 mt-8 md:mt-24 px-4 md:px-0">
+      <h1 class="text-5xl md:text-6xl w-full text-white leading-tight">
+        Be a freelance <br />
+        data-collector and <br />earn money
+      </h1>
+      <p class="text-sm md:text-base w-full text-white mt-2">
+        Collect data from your community and earn money.
+      </p>
+      <button class="bg-[#3CA371] text-white py-3 rounded-lg w-[115px] mt-4 md:mt-8 shadow-lg hover:bg-green-700 transition">
+        Get Started
+      </button>
+    </div>
+  </section>
+  <section class="bg-white flex flex-col pb-[100px] lg:pb-[250px]">
+    <div class="mt-8 md:mt-14 px-4">
+      <h3 class="text-center mb-3 text-[#002333] text-[16px]">WHAT IS FIELDORACLE?</h3>
+      <p class="w-full max-w-[980px] text-2xl md:text-4xl mx-auto mb-6 text-[#3CA371] text-center px-4">
+        Fieldoracle is a global, freelance marketplace application connecting
+        researchers with freelance data collectors on demand to assist with
+        data collection for any research and can also serve as research
+        assistants in the research location.
+      </p>
+      <p class="w-full max-w-[960px] text-[15px] mx-auto text-center text-[#334F5C] mb-10 px-4">
+        As a freelancer on Fieldoracle, you can create an expert profile that
+        is searchable by researchers looking for data collectors with specific
+        research expertise to collect data in their community. When invited,
+        you may chat with project owners to clarify project details, submit
+        proposals for projects, communicate and share files with project
+        owners, and submit invoices to get paid.
+      </p>
+    </div> 
+    <div class="flex flex-col lg:flex-row place-content-center py-2 gap-10 lg:gap-8 mt-8 lg:mt-16 mb-12 px-6 lg:px-0 font-inter mx-auto">
+      <div class="w-full w-[296px] md:w-[296px] border rounded-[24px] border-[#CCD3D6] relative">
+        <div>
+          <img src="User_fill.svg" alt="User icon"
+            class="bg-[#3CA371] p-2 rounded-[18px] shadow-[5px_5px_#E7AF07] w-[50px] h-[50px] absolute top-[-30px] left-[30px]"  />
+        </div>
+        <div class=" text-[#334F5C] w-[243px] mx-auto mt-4 pb-6">
+          <h3 class="mb-2 text-[24px] mt-14 ">Create Profile</h3>
+          <p class="text-[14px]">
+            Fieldoracle supports you by enabling a robust profile that makes
+            it easy for the right clients to find you.
+          </p>
+        </div>
+      </div>
+      <div class="w-full md:w-[296px] border rounded-[24px] border-[#CCD3D6] relative">
+        <div>
+          <img src="Search_alt.svg" alt="Search icon"
+            class="bg-[#3CA371] p-2 rounded-[18px] shadow-[5px_5px_#E7AF07] w-[50px] h-[50px] absolute top-[-30px] left-[30px]" />
+        </div>
+        <div class="text-[#334F5C] w-[243px] mx-auto mt-4 pb-6">
+          <h3 class="mb-3 text-[24px] mt-14 ">Review</h3>
+          <p class="text-[14px]">
+            Review offers that come in for your services, select those that
+            work for you.
+          </p>
+        </div>
+      </div>
+      <div class="w-full md:w-[296px] h-auto md:h-[208px] border rounded-[24px] border-[#CCD3D6] relative">
+        <div>
+          <img src="Wallet_fill.svg" alt="Wallet icon"
+            class="bg-[#3CA371] p-2 rounded-[18px] shadow-[5px_5px_#E7AF07] w-[50px] h-[50px] absolute top-[-30px] left-[30px]" />
+        </div>
+        <div class="text-[#334F5C] w-[243px] mx-auto mt-4 pb-6">
+          <h3 class="mb-3 text-[24px] mt-14 ">Get Paid</h3>
+          <p class="text-[14px]">
+            Fieldoracle allows you flexibility in how you bill and get paid.
+            Invoices, PayPal, Plumtre and others. Whatever works best for you.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col lg:flex-row justify-center content-center mx-auto gap-6 lg:gap-[75px] mb-[150px] lg:mb-0 px-2 font-inter space-y-20 lg:space-y-0 lg:mt-10">
+      <div class="w-[370px] h-auto lg:h-[416px] bg-[#FDF2E8] border rounded-[24px] border-[#FDF2E8] mx-auto ">
+        <div class="mx-auto w-full max-w-[287px] h-[395px] relative px-4 lg:px-0">
+          <h3 class=" text-[26px] md:text-[24px] mb-3 mt-10 text-[#002333]">
+            Build Reputation
+          </h3>
+          <p class=" text-base md:text-[14px] text-[#334F5C]">
+            Build your reputation, get good reviews, and researchers will send you more work! Many companies ask us to
+            match data-collectors to their project — next time it could be you.
+          </p>
+
+          <div class="">
+            <div
+              class=" w-[353px] h-[145px] bg-[#ffffff] absolute top-[320px] left-5 md:top-[275px] lg:top-[255px] md:left-5 shadow-2xl rounded-[12px] px-6 py-6 space-y-2">
+              <div class="flex gap-2 mx-auto">
+                <div>
+                  <img src="Imge.svg" alt="Image Icon" class="">
+                </div>
+                <div>
+                  <h3 class="text-[14px]">
+                    Tesse Eniola
+                  </h3>
+                  <div>
+                    <img src="Rates.svg" alt="Rates icons" class="">
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="w-[312px] h-[51px] text-[14px] text-[#334F5C]">
+                  Working with Agnes was smooth as she acted professionally and performed her task as expected
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[370px] bg-[#F5F0DE] lg:h-[416px] border rounded-[24px] border-[#F5F0DE] mx-auto mt-20 md:mt-0">
+        <div class="w-[287px] h-[400px] lg:h-[220px] relative px-4 lg:px-4 mx-auto">
+          <h3 class=" text-2xl md:text-[24px] mb-2 mt-8 text-[#002333]">We've thought of everything</h3>
+          <p class="text-base md:text-[14px] ">
+          <ul class="list-disc text-[14px] text-[#334F5C] space-y-2md:space-y-0 pl-4 md:pl-0">
+            <li>We've got your back: All payments will be made by the researcher before work begins. Terms and
+              conditions apply.</li>
+            <li>As simple as taking a stroll: All you need to do is walk or drive around your community asking questions
+              or collecting data for your researcher.</li>
+            <li>Helping Researchers in need of data: Our researchers need data for everything from natural disasters,
+              climate change to health etc.</li>
+          </ul>
+          </p>
+          <div class="flex justify-center lg:block pb-6 lg:pb-0">
+            <div
+              class="w-[209px] h-[204px] bg-[#ffffff] flex flex-col rounded-[12px] shadow-2xl absolute top-[370px] left-[150px] lg:absolute lg:top-[340px] lg:left-[180px]">
+              <div class="relative flex-1 flex items-center justify-center">
+                <div class="bg-[#CEEBDE] w-[86px] h-[86px] rounded-full"></div>
+                <div class="absolute">
+                  <img src="Wallet.svg" alt="Wallet icon">
+                </div>
+              </div>
+              <div class="pb-4">
+                <p class="w-[166px] h-[34px] text-[14px] text-center mx-auto text-[#334F5C]">
+                  <strong>Adeola A.</strong> just sent you <strong>$150</strong> for survey project
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="bg-[#F2F4F5] font-inter mb-20 py-12">
+    <div class="flex flex-col md:flex-row justify-center content-center gap-6 md:gap-10 mt-12 mb-16 px-4">
+      <div class="flex flex-col text-center">
+        <h2 class="text-[#3CA371] text-[36px] ">
+          12,450
+        </h2>
+        <p class="text-[14px] text-[#334F5C]">
+          Happy Agents
+        </p>
+      </div>
+      <div class="hidden md:block">
+        <img src="border.svg" alt="border icon" class="mt-5">
+      </div>
+      <div class="flex flex-col text-center">
+        <h2 class="text-[#3CA371] text-[36px] ">
+          1,560
+        </h2>
+        <p class="text-[14px] text-[#334F5C]">
+          Research Done
+        </p>
+      </div>
+      <div class="hidden md:block">
+        <img src="border.svg" alt="border icon" class="mt-5">
+      </div>
+      <div class="flex flex-col text-center">
+        <h2 class="text-[#3CA371] text-[36px] ">
+          3,000
+        </h2>
+        <p class="text-[14px] text-[#334F5C]">
+          Research Posted
+        </p>
+      </div>
+    </div>
+    <div>
+      <p class="text-[#002333] text-xl md:text-[24px] w-full max-w-[737px] mx-auto mb-6 text-center font-inter px-4">
+        Fieldoracle is a solution for researchers looking to carry out research around the world without moving an inch.
+        For more details contact us at support@fieldoracle.com
+      </p>
+    </div>
+  </section>
+  <footer class="flex flex-col md:flex-row gap-4 md:gap-20 mx-auto justify-center content-center mb-10 text-[#667B85] text-[14px] px-4 text-center md:text-center cursor-pointer">
+    <div class="flex flex-col md:flex-row gap-4 md:gap-10 ">
+      <p>Terms & Conditions</p>
+      <p>Privacy Policy</p>
+    </div>
+    <p class=" md:ml-[500px]">
+      Copyright © FieldOracle
+    </p>
+  </footer>
+</body>
+
+</html>
